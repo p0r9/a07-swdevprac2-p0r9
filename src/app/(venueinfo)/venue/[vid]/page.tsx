@@ -1,9 +1,9 @@
 import Image from "next/image"
 
 const venueMap: Record<string, { name: string; imgSrc: string }> = {
-  "001": { name: "The Bloom Pavilion", imgSrc: "/img/cover3.jpg" },
-  "002": { name: "Spark Space",        imgSrc: "/img/cover4.jpg" },
-  "003": { name: "The Grand Table",    imgSrc: "/img/grandtable.jpg" },
+  "001": { name: "The Bloom Pavilion", imgSrc: "/img/cover2.jpg" },
+  "002": { name: "Spark Space",        imgSrc: "/img/cover3.jpg" },
+  "003": { name: "The Grand Table",    imgSrc: "/img/cover4.jpg" },
 }
 
 export default async function VenueDetailPage({

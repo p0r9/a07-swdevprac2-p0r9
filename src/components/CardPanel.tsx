@@ -8,9 +8,9 @@ type RatingAction =
   | { type: 'remove'; venueName: string };
 
 const venues = [
-  { vid: "001", venueName: "The Bloom Pavilion", imgSrc: "/img/bloom.jpg" },
-  { vid: "002", venueName: "Spark Space",        imgSrc: "/img/sparkspace.jpg" },
-  { vid: "003", venueName: "The Grand Table",    imgSrc: "/img/grandtable.jpg" },
+  { vid: "001", venueName: "The Bloom Pavilion", imgSrc: "/img/cover2.jpg" },
+  { vid: "002", venueName: "Spark Space",        imgSrc: "/img/cover3.jpg" },
+  { vid: "003", venueName: "The Grand Table",    imgSrc: "/img/cover4.jpg" },
 ];
 
 function ratingReducer(state: RatingMap, action: RatingAction): RatingMap {
