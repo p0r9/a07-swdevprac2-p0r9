@@ -5,9 +5,9 @@ import { useRouter } from "next/navigation";
 
 const covers = [
   "/img/cover.jpg",
-  "/img/cover2.jpg",
   "/img/cover3.jpg",
   "/img/cover4.jpg",
+  "/img/grandtable.jpg",
 ];
 
 export default function Banner() {

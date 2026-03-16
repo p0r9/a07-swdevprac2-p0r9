@@ -11,7 +11,7 @@ jest.mock('next/navigation', () => ({
 
 describe('Banner Event', () => {
 
-  const covers = ['cover.jpg','cover2.jpg','cover3.jpg','cover4.jpg']
+  const covers = ['cover.jpg','cover3.jpg','cover4.jpg','grandtable.jpg']
   it('Banner responses to click', async() => {
     render(<Banner/>)
     const bannerImg = screen.getByRole("img") as HTMLImageElement
